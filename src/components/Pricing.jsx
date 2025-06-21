@@ -110,7 +110,6 @@ const Pricing = () => {
           </div>
         </div>
 
-        {/* Third Column with Nested Grid for Project-Based and Refer */}
         <div className="grid grid-cols-1 gap-6">
           {/* Project-Based Plan */}
           <div className="bg-[#141414] rounded-3xl p-8 border border-[#313131]">

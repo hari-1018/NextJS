@@ -83,10 +83,7 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              {/* Review */}
               <p className="text-sm md:text-base text-gray-300 leading-relaxed">{item.review}</p>
-
-              {/* Platform + Rating */}
               <div className="flex items-center gap-4">
                 <span className="text-white text-lg">{item.platform}</span>
                 <span className="text-white">5.0 <span className="text-[#ffbe0d] text-lg"> ★★★★★</span></span>
