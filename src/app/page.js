@@ -7,6 +7,7 @@ import Benefits from "@/components/Benefits";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
+import Testimonials from "@/components/Testimonials";
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
       <Services />
       <Pricing />
       <FAQ />
+      <Testimonials />
         
         
       </div>
