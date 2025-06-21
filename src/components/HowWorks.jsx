@@ -22,19 +22,19 @@ const HowItWorks = () => {
 
   return (
     <section className="bg-black text-white px-8 md:px-36 text-center py-6">
-      <div className="mb-16">
+      <div className="mb-8 md:mb-16 max-w-4xl mx-auto">
         <span className="inline-block border border-[#363804] bg-[#171802] text-[#ffb30d] px-5 py-2 rounded-full text-sm mb-6">
           How it works ?
         </span>
         <h2 className="text-4xl md:text-5xl font-light leading-normal">
           Pay and get started <br /> the same day
         </h2>
-        <p className="text-white mt-4 text-base">
+        <p className="text-white mt-4 text-sm md:text-base">
           No unnecessary bureaucracy. We focus on getting your ideas and problems solved.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20 h-[220px] ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20 max-w-7xl mx-auto">
         {steps.map((step) => (
           <div
             key={step.number}
@@ -43,7 +43,7 @@ const HowItWorks = () => {
             <div className="w-12 h-12 border border-[#363804] text-[#ffb30d] rounded-full flex items-center justify-center text-sm absolute bg-[#171802]">
               {step.number}
             </div>
-            <div className="mt-20">
+            <div className="mt-16 md:mt-20">
               <h3 className="text-xl font-medium mb-1">{step.title}</h3>
               <p className="text-sm text-gray-400">{step.description}</p>
             </div>
