@@ -50,7 +50,7 @@ const Benefits = () => {
               <img
                 src={benefit.img}
                 alt={benefit.title}
-                className="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105"
               />
             </div>
             <h3 className="text-lg md:text-xl text-white mt-6 text-start">{benefit.title}</h3>

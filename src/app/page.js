@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Benefits from "@/components/Benefits";
 import Services from "@/components/Services";
 import Pricing from "@/components/Pricing";
+import FAQ from "@/components/FAQ";
 
 
 
@@ -28,6 +29,7 @@ export default function Home() {
       <Benefits />
       <Services />
       <Pricing />
+      <FAQ />
         
         
       </div>
