@@ -1,8 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import About from "@/components/Projects";
+import About from "@/components/About";
 import HowItWorks from "@/components/HowWorks";
-import Portfolio from "@/components/Portfolio";
+import Projects from "@/components/Projects";
+import Benefits from "@/components/Benefits";
+import Services from "@/components/Services";
+import Pricing from "@/components/Pricing";
+
+
+
+
 
 export default function Home() {
   return (
@@ -17,8 +24,10 @@ export default function Home() {
       <Hero />
       <About />
       <HowItWorks />
-      <Portfolio />
-
+      <Projects />
+      <Benefits />
+      <Services />
+      <Pricing />
         
         
       </div>

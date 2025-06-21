@@ -43,3 +43,29 @@ body {
   animation: scroll-left 15s linear infinite;
   will-change: transform; /* Optimize animation performance */
 }
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-right {
+  animation: scroll-right 20s linear infinite;
+}
+
+.scroll-left {
+  animation: scroll-left 20s linear infinite;
+}
