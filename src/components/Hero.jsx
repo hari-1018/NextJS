@@ -1,7 +1,7 @@
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center px-6 py-16">
+    <div id="hero" className="flex flex-col items-center justify-center text-center px-6 py-16">
       <div className="bg-[#141414] text-gray-400 text-sm px-4 py-1 rounded-full mb-4 border border-gray-600">
         5.0 &nbsp; ⭐⭐⭐⭐⭐ 11 reviews
       </div>

@@ -15,15 +15,15 @@ const Navbar = () => {
       <div className="text-2xl sm:text-3xl md:text-4xl font-semibold">LOGO</div>
       
       <ul className="hidden lg:flex gap-10 text-sm tracking-wide">
-        <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Home</li>
-        <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Portfolio</li>
-        <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Benefits</li>
-        <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Services</li>
-        <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Pricing</li>
-        <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">FAQ</li>
+        <a href="#hero"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Home</li></a>
+        <a href="#projects"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Portfolio</li></a>
+        <a href="#benefits"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Benefits</li></a>
+        <a href="#services"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Services</li></a>
+        <a href="#pricing"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">Pricing</li></a>
+        <a href="#faq"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer">FAQ</li></a>
       </ul>
 
-      <button className="hidden lg:flex items-center gap-1 border border-[#ffbe0d] text-white px-5 py-2 rounded-full hover:bg-[#ffbe0d] hover:text-black transition-colors">
+      <button className="hidden lg:flex items-center gap-1 border border-[#ffbe0d] text-white px-5 py-2 rounded-full">
         Book a demo <MdKeyboardArrowRight className="text-[#ffbe0d]" size={25} />
       </button>
 
@@ -40,24 +40,12 @@ const Navbar = () => {
         } lg:hidden fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-black z-50 flex flex-col items-center justify-center gap-8 transition-transform duration-300 ease-in-out`}
       >
         <ul className="flex flex-col items-center gap-6 text-lg tracking-wide">
-          <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>
-            Home
-          </li>
-          <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>
-            Portfolio
-          </li>
-          <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>
-            Benefits
-          </li>
-          <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>
-            Services
-          </li>
-          <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>
-            Pricing
-          </li>
-          <li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>
-            FAQ
-          </li>
+          <a href="#hero"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>Home</li></a>
+          <a href="#projects"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>Portfolio</li></a>
+          <a href="#benefits"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>Benefits</li></a>
+          <a href="#services"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>Services</li></a>
+          <a href="#pricing"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>Pricing</li></a>
+          <a href="#faq"><li className="hover:text-[#ffbe0d] transition-colors cursor-pointer" onClick={toggleMenu}>FAQ</li></a>
         </ul>
         <button
           className="flex items-center gap-1 border border-[#ffbe0d] text-white px-6 py-3 rounded-full hover:bg-[#ffbe0d] hover:text-black transition-colors"
