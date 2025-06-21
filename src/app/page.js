@@ -7,9 +7,8 @@ import HowItWorks from "@/components/HowWorks";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
-      {/* Hero Section with Background */}
       <div
-        className="bg-contain bg-top bg-no-repeat min-h-screen flex flex-col"
+        className="bg-contain bg-top bg-no-repeat flex flex-col"
         style={{ backgroundImage: "url('/hero-bg.jpg')",
           backgroundColor: '#000000'
         }}
